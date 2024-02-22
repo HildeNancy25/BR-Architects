@@ -166,6 +166,8 @@ p {
 .sendbtn {
   background-color: black;
   color: white;
+  padding: 1%;
+  margin-bottom: 10%;
 }
 
 .BRmap {
