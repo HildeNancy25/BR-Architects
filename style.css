@@ -145,6 +145,10 @@ p {
 
 /* FORM */
 
+.Contact p{
+
+}
+
 .BRform {
   padding-top: 10px;
   padding-left: 20px;
@@ -176,13 +180,11 @@ p {
   width: 97%;
 }
 
-.stiky {
-  position: sticky;
+.pCONTACT{
+  border-top: 1px solid rgb(188, 187, 187);
+  padding-top: 1%;
 }
 
-.fixed {
-  position: fixed;
-}
 .About h2 {
   border-bottom: 1px solid rgb(188, 187, 187);
   width: 95%;
@@ -197,6 +199,10 @@ p {
   display: flex;
   justify-content: center;
   margin: 0.5px 0px 0px 0px ;
+  width: 95%;
+}
+.footer p{
+  width: 90%;
 }
 
 @media screen and (max-width: 320px) { 
@@ -207,12 +213,7 @@ p {
   }
 
   .footer{
-    background-color: black;
-    color: white;
-    padding: 4px;
-    display: flex;
-    justify-content: center;
-    /* margin: 0.5px 0px 0px 0px ; */
+    
   }
   
 
